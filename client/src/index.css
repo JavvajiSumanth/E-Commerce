@@ -1,0 +1,363 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* *{
+  background-color: ;
+} */
+
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  position: relative;
+  top: 650px;
+  width: auto;
+  height: 250px;
+  background-color: #262626;
+}
+
+
+
+.links{
+  display: flex;
+  flex-direction: column;
+}
+
+.links a{
+  text-decoration: none;
+  color: azure;
+}
+
+.form{
+  display: inline;
+}
+
+/* .contact{
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 0px 90px;
+} */
+
+.information{
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+}
+
+.heading-color{
+  color: white;
+}
+
+.information a{
+  color : grey;
+  text-decoration: none;
+  
+}
+
+.information a:hover{
+  color: white;
+}
+
+.my-account{
+  display: flex;
+  flex-direction: column;
+}
+
+.my-account a{
+  color: gray;
+  text-decoration: none;
+}
+
+.my-account a:hover{
+  color: white;
+}
+
+.text-color{
+  color: grey;
+}
+
+.subscribe{
+  background-color: red;
+  color: white;
+  margin-left: 5px;
+}
+
+.input-style{
+  color: #262626;
+}
+
+.icons{
+  margin-left: 5px;
+  width: 30px;
+  height: 20px;
+}
+
+.box-1{
+  background-color: #2b2b2b;
+  width: auto;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* .contact{
+  color: white;
+} */
+
+.nav-1{
+  display: flex;
+  flex-direction: row;
+}
+
+/* .header{
+  display: flex;
+  flex-direction: column;
+} */
+
+.header-nav-one{
+  width: 726.3px;
+  height: 30px;
+  background-color: red;
+}
+
+.header-nav-two{
+  width: 310.04px;
+  height: 110px;
+}
+
+.header-nav-three{
+  width: 726.31px;
+  height: 30px;
+  background-color: #333333;
+}
+
+.list-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.list-group a{
+  text-decoration: none;
+  color: #ffcccc;
+}
+
+.list-group-item{
+  font-size: 14px;
+  font-style: sans-serif;
+}
+
+.track-order{
+  width: 400px;
+  height: 500px;
+  background-color: aliceblue;
+  align-items: center;
+  margin-left: 660px;
+}
+
+.track-order-heading{
+  border-bottom: 1px dashed black;
+  text-align: left;
+}
+
+.track-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-item{
+  width: 334px;
+  height: 36px;
+}
+
+.track-submit{
+  background-color: #E52727;
+  font-size: 18px;
+  font-style: sans-serif;
+  color: #ffffff;
+  width: 334px;
+  height: 42px;
+}
+
+.track-submit:hover{
+  background-color: #000000;
+}
+
+.list-groups{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.list-groups-items{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logo-slogan{
+  font-size: 11px;
+  font-style: sans-serif;
+  color: #999999;
+}
+
+.contact-form{
+  width: 930px;
+  height: 465.8px;
+  background-color: aliceblue;
+  margin-left: 350px;
+  display: flex;
+  flex-direction: row;
+}
+
+.address{
+  display: flex;
+  flex-direction: column;
+}
+
+.message{
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-second-line{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.background{
+  width: auto;
+  height: 300px;
+  background-size: cover;
+}
+
+.home-text{
+  color: #ffffff;
+
+}
+
+.search-items{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-menu-items{
+  text-decoration: none;
+  color: #262626;
+  justify-content: space-between;
+}
+
+.app-logo{
+  width: 168px;
+  height: 100px;
+}
+
+.account{
+  display: flex;
+  flex-direction: row;
+}
+
+.heart{
+  width: 32px;
+  height: 32px;
+}
+
+.nav-menu-items-menu:click{
+  text-decoration: none;
+  background-color: #E52727;
+  color: #ffffff;
+}
+
+.form-details{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-submit{
+  background-color: #E52727;
+  color: white;
+  width: 90.84px;
+  height: 30px;
+  align-items: center;
+  margin-left: 75px;
+}
+
+.login-submit:hover{
+  background-color: #2b2b2b;
+}
+
+.login-form-input-items{
+  width: 220px;
+  height: 30px;
+  background-color: #ebebeb;
+  padding: 5.5px 8px;
+}
+
+.login-form-input-items:active{
+  background-color: #ffffff;
+}
+
+.background-about{
+  width: auto;
+  height: 600px;
+  background-size: cover;
+}
+
+.about-card{
+  width: 380px;
+  height: 530px;
+  background-color: #ffffff;
+  padding: 32px 36px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  /* margin-top: 60px; */
+  position: relative;
+  top: 80px;
+  box-shadow: #2b2b2b;
+}
+
+.about-us{
+  width: 308px;
+  height: 56px;
+  color: #262626;
+  font-size: 40px;
+  font-style: sans-serif;
+  /* padding: 16px 0px 40px; */
+}
+
+.team{
+  display: flex;
+  flex-direction: column;
+}
