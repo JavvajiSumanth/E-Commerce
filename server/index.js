@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 const user = require('./models/user');
+const feedbacks = require('./models/feedback');
 
 const app = express();
 
@@ -34,8 +35,23 @@ app.post('/user', (req,res) => {
     console.log("app enters");
     
     newUser.save().then(() => {
-        res.json({status:"OK"});
+        res.status(200).json({status:"OK"});
     }).catch((error) => {
-         res.json("Error",error)
+         res.status(404).json("Error",error);
+    })
+})
+
+app.post('/feedback', (req,res) => {
+    const {name,email,text} = req.body;
+    const newFeedback = new feedbacks({
+        name,
+        email,
+        text
+    })
+
+    newFeedback.save().then(() => {
+        res.status(200).json("OK");
+    }).catch((error) => {
+        res.status(404).json(error);
     })
 })

@@ -334,6 +334,12 @@ code {
   background-size: cover;
 }
 
+.about{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .about-card{
   width: 380px;
   height: 530px;
@@ -360,4 +366,69 @@ code {
 .team{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.member{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.member-card{
+  width: 226px;
+  height: 300.62px;
+  background-color: #ebebeb;
+  padding: 0px 7px;
+}
+
+.member-card-images{
+  width: 206px;
+  height: 225.62px;
+}
+
+/* .testominals{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.testimonial-title{
+  width: 1350px;
+  height: 48px;
+  color: #262626;
+  font-size: 32px;
+  font-family: 'Roboto',sans-serif;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonial-subtitle{
+  width: 1350px;
+  height: 45px;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: #6c757D;
+  margin: -24px 0px 28px;
+  align-items: center;
+  text-align: center;
+}
+
+.feedback-form{
+  width: 400px;
+  height: 500px;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 650px;
+  gap: 20px;
+}
+
+.feedback-form-titles{
+  text-align: start;
 }
